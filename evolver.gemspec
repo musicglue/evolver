@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = ">= 1.3.6"
 
-  s.add_dependency("mongoid", ["~> 3.0"])
+  s.add_dependency("mongoid", [">= 3.1"])
   s.add_dependency("railties", [">= 3.2"])
 
   s.files        = Dir.glob("lib/**/*") + %w(LICENSE README.md Rakefile)
