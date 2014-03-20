@@ -2,7 +2,6 @@
 require "rails/generators"
 require "rails/generators/migration"
 require "rails/generators/named_base"
-require "thor/actions"
 
 module Evolver
   module Generators

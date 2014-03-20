@@ -1,5 +1,6 @@
 # encoding: utf-8
 require "mongoid"
+require "thor/actions"
 require "evolver/extensions"
 require "evolver/loggable"
 require "evolver/migrator"
