@@ -27,6 +27,7 @@ def mongohq_connectable?
 end
 
 RSpec.configure do |config|
+  config.run_all_when_everything_filtered = true
 
   config.filter_run_excluding(config: ->(value){
     return true if value == :mongohq && !mongohq_connectable?
